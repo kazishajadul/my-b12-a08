@@ -1,0 +1,362 @@
+[
+  {
+    "image": "../assets/demo-app (1).webp",
+    "title": "TaskFlow",
+    "companyName": "FlowSoft",
+    "id": 1,
+    "description": "A lightweight task manager with smart reminders and collaborative boards.",
+    "size": 34.2,
+    "reviews": 412,
+    "ratingAvg": 4.5,
+    "downloads": 152340,
+    "ratings": [
+      { "name": "1 star", "count": 12 },
+      { "name": "2 star", "count": 18 },
+      { "name": "3 star", "count": 54 },
+      { "name": "4 star", "count": 156 },
+      { "name": "5 star", "count": 172 }
+    ]
+  },
+  {
+    "image": "https://via.placeholder.com/200?text=App+2",
+    "title": "PhotoFixer",
+    "companyName": "PixelWorks",
+    "id": 2,
+    "description": "Quick photo retouch and filters with AI-assisted background removal.",
+    "size": 48.7,
+    "reviews": 1298,
+    "ratingAvg": 4.7,
+    "downloads": 432120,
+    "ratings": [
+      { "name": "1 star", "count": 22 },
+      { "name": "2 star", "count": 30 },
+      { "name": "3 star", "count": 110 },
+      { "name": "4 star", "count": 420 },
+      { "name": "5 star", "count": 716 }
+    ]
+  },
+  {
+    "image": "https://via.placeholder.com/200?text=App+3",
+    "title": "FitPulse",
+    "companyName": "HealthMate",
+    "id": 3,
+    "description": "Fitness tracking, workout plans and heart-rate integration.",
+    "size": 28.4,
+    "reviews": 879,
+    "ratingAvg": 4.3,
+    "downloads": 210450,
+    "ratings": [
+      { "name": "1 star", "count": 18 },
+      { "name": "2 star", "count": 40 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 370 },
+      { "name": "5 star", "count": 231 }
+    ]
+  },
+  {
+    "image": "https://via.placeholder.com/200?text=App+4",
+    "title": "Cookbook Pro",
+    "companyName": "Kitchenly",
+    "id": 4,
+    "description": "Recipe organizer, meal planner and grocery generator.",
+    "size": 52.1,
+    "reviews": 345,
+    "ratingAvg": 4.1,
+    "downloads": 98230,
+    "ratings": [
+      { "name": "1 star", "count": 7 },
+      { "name": "2 star", "count": 14 },
+      { "name": "3 star", "count": 58 },
+      { "name": "4 star", "count": 136 },
+      { "name": "5 star", "count": 130 }
+    ]
+  },
+  {
+    "image": "https://via.placeholder.com/200?text=App+5",
+    "title": "Newsly",
+    "companyName": "DailyByte",
+    "id": 5,
+    "description": "Personalized news reader with offline reading and bookmarking.",
+    "size": 15.9,
+    "reviews": 208,
+    "ratingAvg": 4.0,
+    "downloads": 74560,
+    "ratings": [
+      { "name": "1 star", "count": 15 },
+      { "name": "2 star", "count": 22 },
+      { "name": "3 star", "count": 58 },
+      { "name": "4 star", "count": 63 },
+      { "name": "5 star", "count": 50 }
+    ]
+  },
+  {
+    "image": "https://via.placeholder.com/200?text=App+6",
+    "title": "PocketBudget",
+    "companyName": "MoneySprint",
+    "id": 6,
+    "description": "Simple budgeting and expense tracker with visual charts.",
+    "size": 23.7,
+    "reviews": 604,
+    "ratingAvg": 4.4,
+    "downloads": 168900,
+    "ratings": [
+      { "name": "1 star", "count": 10 },
+      { "name": "2 star", "count": 26 },
+      { "name": "3 star", "count": 80 },
+      { "name": "4 star", "count": 220 },
+      { "name": "5 star", "count": 268 }
+    ]
+  },
+  {
+    "image": "https://via.placeholder.com/200?text=App+7",
+    "title": "LangLearner",
+    "companyName": "EduWave",
+    "id": 7,
+    "description": "Bite-sized language lessons and speaking practice.",
+    "size": 41.0,
+    "reviews": 1440,
+    "ratingAvg": 4.6,
+    "downloads": 520300,
+    "ratings": [
+      { "name": "1 star", "count": 28 },
+      { "name": "2 star", "count": 40 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 540 },
+      { "name": "5 star", "count": 632 }
+    ]
+  },
+  {
+    "image": "https://via.placeholder.com/200?text=App+8",
+    "title": "WeatherEye",
+    "companyName": "SkyCast",
+    "id": 8,
+    "description": "Hyperlocal weather forecasts with radar and severe alerts.",
+    "size": 19.5,
+    "reviews": 312,
+    "ratingAvg": 4.2,
+    "downloads": 115400,
+    "ratings": [
+      { "name": "1 star", "count": 6 },
+      { "name": "2 star", "count": 14 },
+      { "name": "3 star", "count": 44 },
+      { "name": "4 star", "count": 132 },
+      { "name": "5 star", "count": 116 }
+    ]
+  },
+  {
+    "image": "https://via.placeholder.com/200?text=App+9",
+    "title": "FocusTimer",
+    "companyName": "ZenTools",
+    "id": 9,
+    "description": "Pomodoro timer with focus music and session statistics.",
+    "size": 10.6,
+    "reviews": 98,
+    "ratingAvg": 3.9,
+    "downloads": 45230,
+    "ratings": [
+      { "name": "1 star", "count": 9 },
+      { "name": "2 star", "count": 12 },
+      { "name": "3 star", "count": 25 },
+      { "name": "4 star", "count": 32 },
+      { "name": "5 star", "count": 20 }
+    ]
+  },
+  {
+    "image": "https://via.placeholder.com/200?text=App+10",
+    "title": "MindNotes",
+    "companyName": "NoteLab",
+    "id": 10,
+    "description": "Fast note-taking with tags, search and markdown support.",
+    "size": 12.3,
+    "reviews": 721,
+    "ratingAvg": 4.5,
+    "downloads": 198020,
+    "ratings": [
+      { "name": "1 star", "count": 14 },
+      { "name": "2 star", "count": 20 },
+      { "name": "3 star", "count": 71 },
+      { "name": "4 star", "count": 220 },
+      { "name": "5 star", "count": 396 }
+    ]
+  },
+  {
+    "image": "https://via.placeholder.com/200?text=App+11",
+    "title": "PodcastHub",
+    "companyName": "StreamCore",
+    "id": 11,
+    "description": "Discover and subscribe to podcasts with offline listening.",
+    "size": 36.6,
+    "reviews": 512,
+    "ratingAvg": 4.1,
+    "downloads": 142500,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 30 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 180 },
+      { "name": "5 star", "count": 162 }
+    ]
+  },
+  {
+    "image": "https://via.placeholder.com/200?text=App+12",
+    "title": "DriveCleaner",
+    "companyName": "OptiSys",
+    "id": 12,
+    "description": "Storage analyzer and junk cleaner for better performance.",
+    "size": 8.8,
+    "reviews": 190,
+    "ratingAvg": 3.8,
+    "downloads": 66000,
+    "ratings": [
+      { "name": "1 star", "count": 25 },
+      { "name": "2 star", "count": 30 },
+      { "name": "3 star", "count": 50 },
+      { "name": "4 star", "count": 48 },
+      { "name": "5 star", "count": 37 }
+    ]
+  },
+  {
+    "image": "https://via.placeholder.com/200?text=App+13",
+    "title": "ComicStream",
+    "companyName": "PanelPlay",
+    "id": 13,
+    "description": "Read comics and mangas with a clean reader and offline mode.",
+    "size": 65.3,
+    "reviews": 415,
+    "ratingAvg": 4.4,
+    "downloads": 185600,
+    "ratings": [
+      { "name": "1 star", "count": 8 },
+      { "name": "2 star", "count": 12 },
+      { "name": "3 star", "count": 55 },
+      { "name": "4 star", "count": 200 },
+      { "name": "5 star", "count": 140 }
+    ]
+  },
+  {
+    "image": "https://via.placeholder.com/200?text=App+14",
+    "title": "StudyBuddy",
+    "companyName": "Learnly",
+    "id": 14,
+    "description": "Flashcards, spaced repetition and study insights for students.",
+    "size": 22.9,
+    "reviews": 970,
+    "ratingAvg": 4.6,
+    "downloads": 398700,
+    "ratings": [
+      { "name": "1 star", "count": 16 },
+      { "name": "2 star", "count": 30 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 504 }
+    ]
+  },
+  {
+    "image": "https://via.placeholder.com/200?text=App+15",
+    "title": "BoardMeet",
+    "companyName": "MeetHub",
+    "id": 15,
+    "description": "Lightweight video meetings with scheduling and notes.",
+    "size": 55.0,
+    "reviews": 260,
+    "ratingAvg": 4.0,
+    "downloads": 103200,
+    "ratings": [
+      { "name": "1 star", "count": 14 },
+      { "name": "2 star", "count": 20 },
+      { "name": "3 star", "count": 66 },
+      { "name": "4 star", "count": 90 },
+      { "name": "5 star", "count": 70 }
+    ]
+  },
+  {
+    "image": "https://via.placeholder.com/200?text=App+16",
+    "title": "SleepWell",
+    "companyName": "Nightly",
+    "id": 16,
+    "description": "Sleep sounds, tracking and smart alarm for better rest.",
+    "size": 29.9,
+    "reviews": 432,
+    "ratingAvg": 4.2,
+    "downloads": 129400,
+    "ratings": [
+      { "name": "1 star", "count": 9 },
+      { "name": "2 star", "count": 20 },
+      { "name": "3 star", "count": 70 },
+      { "name": "4 star", "count": 190 },
+      { "name": "5 star", "count": 143 }
+    ]
+  },
+  {
+    "image": "https://via.placeholder.com/200?text=App+17",
+    "title": "SketchPad",
+    "companyName": "Drawly",
+    "id": 17,
+    "description": "Vector sketching and quick export to PNG/SVG for creators.",
+    "size": 77.4,
+    "reviews": 150,
+    "ratingAvg": 3.7,
+    "downloads": 40210,
+    "ratings": [
+      { "name": "1 star", "count": 10 },
+      { "name": "2 star", "count": 18 },
+      { "name": "3 star", "count": 40 },
+      { "name": "4 star", "count": 42 },
+      { "name": "5 star", "count": 40 }
+    ]
+  },
+  {
+    "image": "https://via.placeholder.com/200?text=App+18",
+    "title": "TranslatorX",
+    "companyName": "LinguaTech",
+    "id": 18,
+    "description": "On-device quick translator with camera and offline packs.",
+    "size": 89.2,
+    "reviews": 2100,
+    "ratingAvg": 4.8,
+    "downloads": 1020400,
+    "ratings": [
+      { "name": "1 star", "count": 34 },
+      { "name": "2 star", "count": 40 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 520 },
+      { "name": "5 star", "count": 1386 }
+    ]
+  },
+  {
+    "image": "https://via.placeholder.com/200?text=App+19",
+    "title": "ARHome",
+    "companyName": "HoloDesign",
+    "id": 19,
+    "description": "AR room planner for furniture placement and measurements.",
+    "size": 124.6,
+    "reviews": 95,
+    "ratingAvg": 3.6,
+    "downloads": 31500,
+    "ratings": [
+      { "name": "1 star", "count": 6 },
+      { "name": "2 star", "count": 10 },
+      { "name": "3 star", "count": 30 },
+      { "name": "4 star", "count": 29 },
+      { "name": "5 star", "count": 20 }
+    ]
+  },
+  {
+    "image": "https://via.placeholder.com/200?text=App+20",
+    "title": "DailyArt",
+    "companyName": "Curio",
+    "id": 20,
+    "description": "Discover a daily artwork with stories and artist bios.",
+    "size": 14.8,
+    "reviews": 305,
+    "ratingAvg": 4.3,
+    "downloads": 86020,
+    "ratings": [
+      { "name": "1 star", "count": 5 },
+      { "name": "2 star", "count": 12 },
+      { "name": "3 star", "count": 45 },
+      { "name": "4 star", "count": 120 },
+      { "name": "5 star", "count": 123 }
+    ]
+  }
+]
