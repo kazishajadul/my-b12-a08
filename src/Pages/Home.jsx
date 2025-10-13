@@ -1,11 +1,11 @@
 import React from 'react'
 import Header from '../components/Header'
-import Footer from '../components/Footer'
 import apps from '../data/apps.json'
 import { Link } from 'react-router-dom'
 import HeroImage from "../assets/hero.png"
 import GoogleLogo from "../assets/google-play.png"
 import AppleLogo from "../assets/app-store.png"
+import Footer from '../components/Footer'
 
 export default function Home() {
     const top8 = apps.slice(0, 8)
@@ -23,8 +23,7 @@ export default function Home() {
                         <span className="text-purple-700">Productive</span> Apps
                     </h1>
                     <p className="mt-3 text-gray-700">
-                        At HERO.IO, we craft innovative apps designed to make everyday life simpler, smarter, and more exciting.<br />
-                        Our goal is to turn your ideas into digital experiences that truly make an impact.
+                        At HERO.IO, we craft innovative apps designed to make everyday life simpler, smarter, and more exciting.
                     </p>
                     <div className="flex justify-center flex-col sm:flex-row gap-3">
                         <a
@@ -49,45 +48,33 @@ export default function Home() {
                     </div>
 
                     <div className="mt-6 flex flex-col md:flex-row justify-center gap-6 items-center">
-                        {/* Hero Image */}
                         <img src={HeroImage} alt="Hero" className="w-64 md:w-96 rounded-lg mb-4 md:mb-0" />
-
-                        {/* Buttons */}
-
                     </div>
                 </section>
 
+                {/* Trusted Section */}
                 <section className="w-full max-w-[1600px] h-[410px] mx-auto rounded-lg bg-gradient-to-r from-purple-600 to-purple-400 text-white flex flex-col justify-center items-center px-4">
-                    {/* Main Heading */}
                     <h2 className="text-4xl md:text-5xl font-bold text-center mb-12">
                         Trusted by Millions, Built for You
                     </h2>
-
-                    {/* 3-column stats */}
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-8 w-full max-w-5xl text-center">
-                        {/* Stat 1 */}
                         <div>
                             <div className="text-lg font-medium">Total Downloads</div>
                             <div className="text-6xl md:text-5xl font-extrabold mt-2">29.06M</div>
                             <p className="mt-2 text-sm text-purple-100">21% more than last month</p>
                         </div>
-
-                        {/* Stat 2 */}
                         <div>
                             <div className="text-lg font-medium">Active Users</div>
                             <div className="text-6xl md:text-5xl font-extrabold mt-2">906K</div>
                             <p className="mt-2 text-sm text-purple-100">46% More Than Last Month</p>
                         </div>
-
-                        {/* Stat 3 */}
                         <div>
                             <div className="text-lg font-medium">Positive Reviews</div>
                             <div className="text-6xl md:text-5xl font-extrabold mt-2">132+</div>
-                            <p className="mt-2 text-sm text-purple-100">31 More Will Lunch</p>
+                            <p className="mt-2 text-sm text-purple-100">31 More Will Launch</p>
                         </div>
                     </div>
                 </section>
-
 
                 {/* Top Apps Section */}
                 <section className="mt-8">
@@ -110,8 +97,7 @@ export default function Home() {
                 </section>
 
             </main>
-
-            <Footer />
+            <Footer/>
         </div>
     )
 }

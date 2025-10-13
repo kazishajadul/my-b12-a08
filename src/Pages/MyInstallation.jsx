@@ -1,79 +1,10 @@
-// import React, { useEffect, useState } from 'react'
-// import Header from '../components/Header'
-// import Footer from '../components/Footer'
-// import apps from '../data/apps.json'
-// import { getInstalledIds, uninstallApp } from '../utils/localStorage'
-// import { Link } from 'react-router-dom'
-
-
-// export default function MyInstallation() {
-//     const [installed, setInstalled] = useState([])
-
-
-//     const refresh = () => setInstalled(getInstalledIds())
-//     useEffect(() => refresh(), [])
-
-
-//     const handleUninstall = (id) => {
-//         uninstallApp(id)
-//         refresh()
-//         toast('App removed')
-//     }
-
-
-//     const installedApps = apps.filter(a => installed.includes(a.id))
-
-
-//     return (
-//         <div className="min-h-screen flex flex-col">
-//             <Header />
-//             <main className="flex-1 max-w-6xl mx-auto px-4 py-8">
-//                 <h1 className="text-2xl font-semibold">My Installation</h1>
-//                 <p className="text-sm text-gray-600">Apps installed on this device (saved in localStorage)</p>
-
-
-//                 <div className="mt-6">
-//                     {installedApps.length === 0 ? (
-//                         <div className="p-6 bg-yellow-50 rounded">No installed apps. <Link to="/apps" className="text-indigo-600">Browse apps</Link></div>
-//                     ) : (
-//                         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
-//                             {installedApps.map(a => (
-//                                 <div key={a.id} className="border rounded p-3">
-//                                     <img src={a.image} alt={a.title} className="w-full h-36 object-cover rounded" />
-//                                     <h3 className="mt-2 font-medium">{a.title}</h3>
-//                                     <div className="text-sm text-gray-600">{a.downloads.toLocaleString()} downloads</div>
-//                                     <div className="mt-3 flex gap-2">
-//                                         <Link to={`/apps/${a.id}`} className="px-3 py-1 rounded border">Details</Link>
-//                                         <button onClick={() => handleUninstall(a.id)} className="px-3 py-1 rounded bg-red-100">Uninstall</button>
-//                                     </div>
-//                                 </div>
-//                             ))}
-//                         </div>
-//                     )}
-//                 </div>
-//             </main>
-//             <Footer />
-//         </div>
-//     )
-// }
-
-
-// function toast(msg) {
-//     const el = document.createElement('div')
-//     el.textContent = msg
-//     el.className = 'fixed bottom-6 right-6 bg-black text-white px-4 py-2 rounded'
-//     document.body.appendChild(el)
-//     setTimeout(() => el.remove(), 1400)
-// }
-
-
 import React, { useEffect, useState } from "react";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import { Download, Star } from "lucide-react";
 
 export default function Installation() {
-  // Default apps list (for demo)
+  
   const defaultApps = [
     {
       id: 1,
@@ -101,11 +32,9 @@ export default function Installation() {
     },
   ];
 
-  // State for installed apps
-  const [installedApps, setInstalledApps] = useState([]);
+    const [installedApps, setInstalledApps] = useState([]);
 
-  // Load apps from localStorage or set defaults
-  useEffect(() => {
+    useEffect(() => {
     const savedApps = JSON.parse(localStorage.getItem("installedApps"));
     if (savedApps && savedApps.length > 0) {
       setInstalledApps(savedApps);
@@ -115,7 +44,7 @@ export default function Installation() {
     }
   }, []);
 
-  // Handle uninstall
+
   const handleUninstall = (id) => {
     const updatedApps = installedApps.filter((app) => app.id !== id);
     setInstalledApps(updatedApps);
@@ -127,7 +56,7 @@ export default function Installation() {
       <Header />
 
       <main className="flex-1 max-w-6xl mx-auto px-4 py-12">
-        {/* Page Header */}
+      
         <div className="text-center mb-10">
           <h1 className="text-3xl md:text-4xl font-bold text-gray-800">
             Your Installed Apps
@@ -137,7 +66,7 @@ export default function Installation() {
           </p>
         </div>
 
-        {/* Apps Count + Sort Button */}
+       
         <div className="flex justify-between items-center mb-6">
           <p className="text-gray-600 font-medium">
             {installedApps.length} Apps Found
@@ -155,8 +84,7 @@ export default function Installation() {
             </svg>
           </button>
         </div>
-
-        {/* Installed Apps List */}
+ 
         {installedApps.length > 0 ? (
           <div className="space-y-4">
             {installedApps.map((app) => (
